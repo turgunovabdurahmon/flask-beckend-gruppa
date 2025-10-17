@@ -7,9 +7,9 @@ app = Flask("__name__")
 def index():
     return "Salom backend dasturchi"
 
-@app.route("/home")
-def home():
-    return "Home page"
+@app.route("/about")
+def about():
+    return "Home about"
 
 
 if __name__ == "__main__":
